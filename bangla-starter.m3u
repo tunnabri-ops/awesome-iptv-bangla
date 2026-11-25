@@ -1,0 +1,16 @@
+#EXTM3U
+# Bangladesh starter playlist — checked 2026-11-25 (curl, HTTP 200 + real #EXTM3U body)
+# Source: https://iptv-org.github.io/iptv/countries/bd.m3u (iptv-org public list)
+# Only the 4 channels re-verified LIVE today are included.
+# NOT included: T Sports (HTTP 404, dead since 2026-11-23).
+# The other channels from the iptv-org BD list were not re-verified live today,
+# so they are left out rather than listed unverified.
+# Play: vlc bangla-starter.m3u  |  mpv bangla-starter.m3u
+#EXTINF:-1 tvg-id="BanglaVision.bd" group-title="General",Bangla Vision
+https://tvsen5.aynaott.com/banglavision/index.m3u8
+#EXTINF:-1 tvg-id="BoishakhiTV.bd" group-title="General",Boishakhi TV
+https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
+#EXTINF:-1 tvg-id="EkusheyTV.bd" group-title="News",Ekushey TV
+https://ekusheyserver.com/etvlivesn.m3u8
+#EXTINF:-1 tvg-id="NTV.bd" group-title="General",NTV (Bangladesh)
+https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
